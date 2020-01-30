@@ -1,0 +1,27 @@
+{
+  "name": "kvs",
+  "version": "1.0.0",
+  "description": "for creating own cli for mapping feilds",
+  "main": "src/index.js",
+  "bin": {
+    "kvs": "bin/kvs"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cli",
+    "kvs"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "arg": "^4.1.2",
+    "esm": "^3.2.25",
+    "flat-cache": "^2.0.1",
+    "inquirer": "^7.0.4"
+  }
+}
